@@ -1,0 +1,25 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.body {
+    background-color:#F8F8FC;
+}
+h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+    line-height: 1.2;
+    color: slateblue;
+    font-family: auto;
+}
+header .navbar {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
