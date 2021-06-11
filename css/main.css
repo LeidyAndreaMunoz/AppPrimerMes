@@ -124,3 +124,28 @@ header .navbar {
 .card-body {
     margin-top: -2%;
 }
+footer {
+    position: fixed; 
+    bottom: 0;  
+    top: auto; 
+    background-color: azure; 
+    width: 100%;
+}
+footer .nav .nav-item  {
+    display: flex;
+    flex-direction: column;
+}
+footer .nav .nav-item img {
+    width: 20px;
+    margin-left: 29%;
+}
+footer .nav .nav-item a {
+    font-size: 10px; 
+}
+#agg-footer-icon img {
+    margin-top: -20px;
+    width: 30%;
+}
+#agg-footer-icon a{
+    margin-top: 12px;
+}
