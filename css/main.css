@@ -23,3 +23,103 @@ header .navbar {
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
 }
+.main-hero {
+    padding: 20px;
+    display: grid;
+    justify-items: stretch;
+    margin: 0 auto ;
+    margin-top: -10%;
+}
+.main-hero-container {
+    padding: 20px;
+    background-image: radial-gradient(circle at 3.64% 54.06%, #2effff 0, #1dffff 16.67%, #17ffff 33.33%, #1decf3 50%, #27d8e4 66.67%, #2fc5d5 83.33%, #35b4c7 100%);
+    border-radius: 20px;
+}
+.hero-main-text p{
+    margin-bottom: 0px;
+}
+.main-hero img {
+    position: relative;
+    width: 19%;
+    top: 7%;
+    left: calc(50% - -9px);
+}
+
+.anime-section {
+    background-color: white;
+    padding: 6%;
+    padding-left: 11%;
+    margin: 0 auto;
+    border-radius: 20px;
+    border: 1px solid;
+}
+.anime-section .col-6 {
+    text-align: center;
+    font-size: 18px;
+    font-weight: 700;
+}
+.table-anime-section {
+    padding: 20px;
+    display: grid;
+    justify-items: stretch;
+    margin: 0 auto ;
+}
+#goals-title {
+    text-align: -webkit-center;
+}
+.anual-article-goal img {
+    position: relative;
+    width: 50%;
+}
+.mensual-article-goal img {
+    position: relative;
+    width: 68%;
+}
+.main-section-goals {
+    margin-left: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+    background-color: white;
+    width: 90%;
+    border-radius: 20px;
+    border: 1px solid;
+    margin-bottom: 2%;
+}
+#info-goals-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 76%;
+    margin-left: 9%;
+}
+#info-avance-goal {
+    padding: 2%;
+    margin: 0 auto;
+    margin-bottom: 3%;
+    border: 1px solid;
+    border-radius: 20px;
+}
+#info-avance-goal .col-3 img {
+    position: relative;
+    width: 50%;
+}
+.card {
+    margin-left: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+    background-color: white;
+    width: 90%;
+    border-radius: 20px;
+    border: 1px solid;
+    margin-bottom: 2%;
+}
+.card img {
+    padding: 3%;
+}
+.card-body {
+    margin-top: -2%;
+}
